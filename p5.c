@@ -13,9 +13,13 @@ int main(void)
     char end;
     int station=0;
     while (scanf("%d %d", &out, &in) == 2){
+    if(people<out){
+            printf("impossible.\n");
+        return 0;
+    }
         station++;
         people=people+in-out;
-    }
+
     scanf(" %c",&end);
     if (end=='p'){
         printf("%d\n",people);
