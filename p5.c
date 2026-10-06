@@ -14,7 +14,7 @@ int main(void)
     int station=0;
     while (scanf("%d %d", &out, &in) == 2){
         if(people<out){
-                printf("impossible.\n");
+                printf("Impossible.\n");
             return 0;
         }
         station++;
