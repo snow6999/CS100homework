@@ -19,7 +19,7 @@ int main(void)
         }
         station++;
         people=people+in-out;
-
+    }
     scanf(" %c",&end);
     if (end=='p'){
         printf("%d\n",people);
