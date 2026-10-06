@@ -25,13 +25,13 @@ int main(void)
 	if (average == 60){
         printf("Good!\n");
     }
-	elsev if (average > 60){
+	else if (average > 60){
 		printf("Excellent!\n");                      
     }
 	else{
-		printf("Bad.\n");
+		printf("Bad!\n");
     }
-	printf("Average score is %.3f.\n", average);
+	printf("Average score is %.2f.\n", average);
 
     return 0;
 }
